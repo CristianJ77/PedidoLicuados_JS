@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import Featured from "../components/Featured";
+import PizzaList from "../components/PizzaList";
 import styles from '@/styles/Home.module.css'
 
 export default function Home() {
@@ -8,10 +9,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Licuados Mar y Sol</title>
-        <meta name="description" content="Best pizza shop in town" />
+        <meta name="description" content="Los mejores licuados de Monjas" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Hola, estoy en tu celular!!!
+      <Featured/>
+      <PizzaList/>
     </div>
   );
 }
