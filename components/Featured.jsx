@@ -2,8 +2,10 @@ import styles from "../styles/Featured.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
+
 const Featured = () => {
   const [index, setIndex] = useState(0);
+  <img style="width: 100%; height: auto;" src="img/licuadofresa.png" alt="cover" width="550" height="300"></img>
   const images = [
     "/img/licuadofresa.png",
     "/img/licuadobanano.png",

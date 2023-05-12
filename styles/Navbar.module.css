@@ -1,7 +1,7 @@
 .container {
   height: 100px;
   padding: 0px 50px;
-  background-color: #e9b2d6;
+  background-color: #e45fe6;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,7 +77,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color:#e9b2d6;
+    color: #d1411e;
 }
 
 @media screen and (max-width:480px) {

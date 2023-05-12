@@ -1,10 +1,10 @@
 .container {
     height: calc(100vh - 100px);
-    background-color: #e9b2d6;
+    background-color: #ca87c9;
     overflow: hidden;
     position: relative;
-  }
-  
+  } 
+
   .arrowContainer {
     position: absolute;
     width: 10%;
